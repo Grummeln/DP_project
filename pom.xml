@@ -63,6 +63,10 @@
                     <target>19</target>
                 </configuration>
             </plugin>
+         <testResources>
+              <testResource>
+                <directory>src/main/java/Tests</directory>
+         </testResource>
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
